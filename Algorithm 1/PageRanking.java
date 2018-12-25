@@ -95,6 +95,7 @@ public class PageRanking {
 		System.out.print("Enter the Number of WebPages :- ");
 		nodes = sc.nextInt();
 		PageRanking pr = new PageRanking();
+		
 		for (int i = 0; i < nodes; i++) {
 			for (int j = 0; j < args.length; j++) {
 				pr.path[i][j] = sc.nextInt();
